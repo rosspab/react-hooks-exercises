@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, createContext, useCallback, useReducer, useMemo, useLayoutEffect, useRef, useState } from 'react';
+import { useEffect, useContext, createContext, useCallback, useReducer, useMemo, useLayoutEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import Instrucciones from './instrucciones';
 
