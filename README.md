@@ -23,7 +23,7 @@
     - [Ejercicio 4: useCallback](#ejercicio-4-usecallback)
     - [Ejercicio 5: useReducer](#ejercicio-5-usereducer)
     - [Ejercicio 6: useMemo](#ejercicio-6-usememo)
-    - [Ejercicio 7: useLayoutEffect](#ejercicio-7-uselayeffect)
+    - [Ejercicio 7: useLayoutEffect](#ejercicio-7-useLayoutEffect)
 6. [Conclusión](#conclusión)
 
 ---
@@ -46,7 +46,7 @@ A pesar de su versatilidad, los hooks tienen limitaciones. Por ejemplo, no se pu
 
 Vamos a comenzar con el primer hook: **useState**.
 
-### useState
+### Ejercicio 1: useState
 
 #### Descripción
 
@@ -96,7 +96,7 @@ export default Contador;
 
 Este es un ejemplo básico para entender cómo funciona `useState`. En el siguiente hook, vamos a construir sobre este ejemplo para ir ampliando la funcionalidad.
 
-### useEffect
+### Ejercicio 2: useEffect
 
 #### Descripción
 
@@ -148,7 +148,7 @@ export default Contador;
 
 Este ejemplo muestra cómo `useEffect` se puede utilizar junto con `useState` para realizar operaciones basadas en los cambios de estado, gestionando correctamente los efectos secundarios.
 
-### useContext
+### Ejercicio 3: useContext
 
 #### Descripción
 
@@ -223,7 +223,7 @@ export default App;
 
 Este ejemplo muestra cómo `useContext` facilita la gestión de estados globales o valores compartidos, como el tema, sin tener que pasar props a través de múltiples niveles de componentes.
 
-### useCallback
+### Ejercicio 4: useCallback
 
 #### Descripción
 
@@ -300,7 +300,7 @@ export default App;
 
 Este ejemplo demuestra cómo `useCallback` puede mejorar el rendimiento en escenarios donde las funciones se pasan entre componentes, evitando renderizados innecesarios y manteniendo la consistencia de las funciones.
 
-### useReducer
+### Ejercicio 5: useReducer
 
 #### Descripción
 
@@ -397,7 +397,7 @@ export default App;
 
 Este ejemplo muestra cómo `useReducer` puede ser más adecuado que `useState` en escenarios donde el estado es más complejo o las transiciones de estado son más elaboradas, proporcionando una estructura más clara y escalable para manejar actualizaciones de estado.
 
-### useMemo
+### Ejercicio 6: useMemo
 
 #### Descripción
 
@@ -494,7 +494,7 @@ export default App;
 
 Este ejemplo demuestra cómo `useMemo` puede utilizarse para optimizar componentes al memorizar valores calculados que dependen de variables del estado o props, reduciendo la cantidad de cálculos innecesarios y mejorando el rendimiento del componente.
 
-### useLayoutEffect
+### Ejercicio 7: useLayoutEffect
 
 #### Descripción
 

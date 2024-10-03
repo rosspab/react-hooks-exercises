@@ -39,6 +39,7 @@ const Instrucciones: React.FC = () => {
                     </ul>
                 </li>
                 <li><a href="#conclusion">Conclusión</a></li>
+                <li><a href="#instrucciones-tests">Instrucciones para ejecutar los tests</a></li>
             </ol>
 
             <hr />
@@ -192,7 +193,34 @@ export default App;`}
         </code>
       </pre>
 
-            {/* Similar structure for other hooks like useCallback, useReducer, useMemo, useLayoutEffect */}
+            <h3 id="instrucciones-tests">Instrucciones para ejecutar los tests</h3>
+            <p>
+                A continuación se detalla cómo realizar los ejercicios y ejecutar los tests correspondientes:
+            </p>
+            <ol>
+                <li>
+                    <strong>Instalar dependencias:</strong> Antes de ejecutar los tests, asegúrate de haber instalado todas las dependencias necesarias. En la raíz del proyecto, ejecuta el siguiente comando en tu terminal:
+                    <pre><code>npm install</code></pre>
+                </li>
+                <li>
+                    <strong>Ejecutar todos los archivos que terminan en <code>ExerciseTests.js</code></strong>: Usa la línea de comandos para ejecutar todos los tests de una sola vez con el siguiente comando:
+                    <pre><code>node useStateExerciseTests.js</code></pre>
+                    Esto creará todos los ejercicios y pruebas para validad que todo funcione.
+                </li>
+                <li>
+                    <strong>Ir a cada archivo JSX en <code>src/exercises/nombredelhook/</code></strong>: Navega por los archivos de ejercicios dentro de la carpeta correspondiente al hook que estás practicando, como por ejemplo:
+                    <pre><code>src/exercises/useState/UseStateExercise1.jsx</code></pre>
+                    Completa el ejercicio en cada archivo JSX según las instrucciones del desafío.
+                </li>
+                <li>
+                    <strong>Ejecutar los tests de forma individual para cada ejercicio</strong>: Para ejecutar el test de un ejercicio específico, navega hasta el archivo de test correspondiente y usa el siguiente comando:
+                    <pre><code>npm test src/tests/useState/UseStateExercise1.test.js</code></pre>
+                    Esto ejecutará solo el test del ejercicio específico que seleccionaste.
+                </li>
+                <li>
+                    <strong>Verificar el progreso:</strong> Una vez que hayas completado el ejercicio y su prueba haya pasado correctamente, continúa con el siguiente ejercicio en la secuencia. Recuerda verificar los tests utilizando los comandos anteriormente mencionados para garantizar que todas las funcionalidades estén correctas.
+                </li>
+            </ol>
 
             <h3 id="conclusion">Conclusión</h3>
             <p>
